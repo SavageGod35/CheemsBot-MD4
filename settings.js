@@ -102,7 +102,13 @@ global.ntilink = []
 //omther
 global.sessionName = 'session'
 global.antitags = true
-global.prefa = ['.,']
+        "HANDLERS": {
+
+            "description": "Prefix of commands. Can be also false",
+
+            "required": true,
+
+            "value":".,"
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
